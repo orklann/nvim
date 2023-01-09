@@ -92,6 +92,9 @@ noremap <silent> <nowait> G GG
 " New line
 nmap <CR> o<Esc>i
 
+" Hide coloration of found words
+map <C-C> :nohlsearch<CR>
+
 " Lua code
 lua <<EOF
 require("colorizer").setup ({
