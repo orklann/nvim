@@ -91,3 +91,13 @@ noremap <silent> <nowait> G GG
 
 " New line
 nmap <CR> o<Esc>i
+
+" Lua code
+lua <<EOF
+require("colorizer").setup ({
+  '*'
+}, {
+    css = true;
+    RRGGBBAA = true
+})
+EOF
