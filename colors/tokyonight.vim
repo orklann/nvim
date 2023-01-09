@@ -33,11 +33,11 @@ let s:configuration.current_word = get(g:, 'tokyonight_current_word', get(g:, 't
 if s:configuration.style ==# 'night'
   let s:palette = {
         \ 'black':      ['#06080a',   '237',  'DarkGrey'],
-        \ 'bg0':        ['#1a1b26',   '235',  'Black'],
-        \ 'bg1':        ['#232433',   '236',  'DarkGrey'],
-        \ 'bg2':        ['#2a2b3d',   '236',  'DarkGrey'],
-        \ 'bg3':        ['#32344a',   '237',  'DarkGrey'],
-        \ 'bg4':        ['#3b3d57',   '237',  'Grey'],
+        \ 'bg0':        ['#1a1b26F0',   '235',  'Black'],
+        \ 'bg1':        ['#232433F0',   '236',  'DarkGrey'],
+        \ 'bg2':        ['#2a2b3dF0',   '236',  'DarkGrey'],
+        \ 'bg3':        ['#32344aF0',   '237',  'DarkGrey'],
+        \ 'bg4':        ['#3b3d57F0',   '237',  'Grey'],
         \ 'bg_red':     ['#ff7a93',   '203',  'Red'],
         \ 'diff_red':   ['#803d49',   '52',   'DarkRed'],
         \ 'bg_green':   ['#b9f27c',   '107',  'Green'],
