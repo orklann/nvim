@@ -1,6 +1,9 @@
 ## Screenshots
 ![image](https://i.ibb.co/LCG97p0/nvim-screenshot.png)
 
+## Requirements
+* Neovim v0.7.2
+
 ## Usage
    ```shell
    cd ~/.config
