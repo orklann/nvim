@@ -143,7 +143,7 @@ lua <<EOF
     Function = "",
     Constructor = "",
     Field = "",
-    Variable = "",
+    Variable = "",
     Class = "",
     Interface = "",
     Module = "",
