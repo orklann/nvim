@@ -3,7 +3,7 @@
 
 ## Requirements
 * Neovim v0.7.2
-* Kitty terminal
+* Kitty
 
 ## Usage
    ```shell
