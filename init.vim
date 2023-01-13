@@ -16,6 +16,7 @@ cabbrev t tabnew
 cabbrev tn tabnext
 
 map <c-j> :tabnext<CR>
+imap <c-j> <ESC>:tabnext<CR>
 
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
