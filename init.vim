@@ -15,8 +15,10 @@ set nu
 cabbrev t tabnew
 cabbrev tn tabnext
 
-map <c-j> :tabnext<CR>
-imap <c-j> <ESC>:tabnext<CR>
+map <c-u> :tabnext<CR>
+imap <c-u> <ESC>:tabnext<CR>
+map <c-j> <c-f>
+map <c-k> <c-b>
 
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
