@@ -67,6 +67,16 @@ autocmd! BufRead,BufNewFile * call GetStatus()
 autocmd! BufEnter * call GetStatus()
 autocmd VimEnter * call GetStatus()
 
+" Change to current directory which contains new file
+fun! CWD()
+    let fullPath = expand('%:p:h')
+    let s = "cd ".fullPath
+    exec s
+endfun
+
+autocmd BufRead,BufNewFile * call CWD()
+autocmd! BufRead,BufNewFile * call CWD()
+
 " In visual mode, use Y to copy to system clipboard
 vnoremap Y "*y
 
