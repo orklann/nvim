@@ -121,6 +121,7 @@ require("colorizer").setup ({
 EOF
 
 call plug#begin()
+Plug 'ryanoasis/vim-devicons'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
