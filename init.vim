@@ -76,6 +76,7 @@ endfun
 
 autocmd BufRead,BufNewFile * call CWD()
 autocmd! BufRead,BufNewFile * call CWD()
+autocmd! BufEnter * call CWD()
 
 " In visual mode, use Y to copy to system clipboard
 vnoremap Y "*y
