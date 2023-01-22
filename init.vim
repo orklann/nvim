@@ -136,6 +136,10 @@ Plug 'hrsh7th/vim-vsnip'
 " Plug 'dcampos/nvim-snippy'
 " Plug 'dcampos/cmp-snippy'
 
+
+" cscope.nvim
+Plug 'mfulz/cscope.nvim'
+
 call plug#end()
 
 set completeopt=menu,menuone,noselect
@@ -143,3 +147,4 @@ set completeopt=menu,menuone,noselect
 " Source configurations
 source ~/.config/nvim/vim/colorizer.vim
 source ~/.config/nvim/vim/nvim-cmp.vim
+source ~/.config/nvim/vim/cscope.vim
