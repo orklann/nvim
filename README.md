@@ -29,6 +29,6 @@
     python3 -m pip install --user --upgrade pynvim
     ```
 
-3. See commands and other help in cscope.vim project
+3. See commands and other help in cscope.nvim project
 
    https://github.com/mfulz/cscope.nvim
