@@ -10,7 +10,7 @@ let g:cscope_map_keys = 1
 
 " Update the cscope files on startup of cscope.
 " Defaults to off
-" let g:cscope_update_on_start = 1
+let g:cscope_update_on_start = 1
 
 " Command alias for cscope
 cabbrev csa cs find a 
