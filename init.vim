@@ -60,7 +60,7 @@ fun! GetStatus()
   exec s
 endfun
 
-autocmd CursorMovedI * call GetStatus()
+autocmd CursorMoved * call GetStatus()
 autocmd BufWritePost * call GetStatus()
 autocmd BufRead,BufNewFile * call GetStatus()
 autocmd! BufRead,BufNewFile * call GetStatus()
