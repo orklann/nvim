@@ -32,3 +32,11 @@
 3. See commands and other help in cscope.nvim project
 
    https://github.com/mfulz/cscope.nvim
+
+## Configure zathura
+    ```shell
+    sudo cp ~/.config/nvim/zathura/zathurarc /etc/zathurarc
+    ```
+    
+    To remove window title bar, install `Unite` Gnome extension
+
