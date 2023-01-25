@@ -12,3 +12,7 @@ set recolor true
 set recolor-lightcolor "#0b0822"
 set recolor-keephue
 set recolor-darkcolor "#ffffff"
+
+" Set default window size
+set window-width 720
+set window-height 800
