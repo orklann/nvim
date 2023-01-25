@@ -5,7 +5,9 @@ set default-bg "#0b0822"
 
 " Set PDF page, backgound as default background
 " text color as white
-
+map i recolor
+map J zoom in
+map K zoom out
 set recolor true
 set recolor-lightcolor "#0b0822"
 set recolor-keephue
