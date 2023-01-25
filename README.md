@@ -1,11 +1,11 @@
-## Screenshots
+### Screenshots
 ![image](https://i.ibb.co/LCG97p0/nvim-screenshot.png)
 
-## Requirements
+### Requirements
 * Neovim v0.7.2
 * Kitty
 
-## Usage
+### Usage
    ```shell
    cd ~/.config
    git clone https://github.com/orklann/nvim.git
@@ -17,7 +17,7 @@
     * Run :PlugInstall to install nvim-cmp and all dependences
     * Restart nvim
 
-## Steps to use cscope.nvim
+### Steps to use cscope.nvim
 
 1. Install cscope
     ```shell
@@ -33,7 +33,7 @@
 
    https://github.com/mfulz/cscope.nvim
 
-## zathura pdf reader
+### zathura pdf reader
    ```shell
    sudo apt install zathura
    ```
@@ -42,7 +42,9 @@
    sudo cp ~/.config/nvim/zathura/zathurarc /etc/zathurarc
    ```
    
-## Rmove window title bar
+### Rmove window title bar
 
 Install `Unite` Gnome extension
 
+### Custom Gnome Theme
+https://github.com/orklann/adw-gtk3-dark
