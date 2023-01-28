@@ -18,4 +18,3 @@ cabbrev csc cs find c
 cabbrev csd cs find d
 cabbrev csg cs find g 
 cabbrev csi cs find i
-cabbrev css cs find s
