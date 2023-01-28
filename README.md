@@ -47,7 +47,7 @@ This repo is not just my neovim configuration, it's almost about all of my Linux
    
 ### Rmove window title bar
 
-Install `Unite` Gnome extension
+Install `Unite` GNOME extension
 
-### Custom Gnome Theme
+### Custom GNOME Theme
 https://github.com/orklann/adw-gtk3-dark
