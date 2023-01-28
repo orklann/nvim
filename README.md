@@ -1,5 +1,5 @@
 ### Info
-This repo is not just my neovim configuration, it's almost about all of my Linux desktop configuration
+This repo is not just my neovim configuration, it's almost about all of my Linux desktop configuration.
 
 ### Screenshots
 ![image](https://i.ibb.co/LCG97p0/nvim-screenshot.png)
