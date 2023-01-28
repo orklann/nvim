@@ -36,7 +36,7 @@ This repo is not just my neovim configuration, it's almost about all of my Linux
 
    https://github.com/mfulz/cscope.nvim
 
-### zathura pdf reader
+### zathura (PDF reader)
    ```shell
    sudo apt install zathura
    ```
