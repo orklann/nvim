@@ -44,6 +44,13 @@ This repo is not just my neovim configuration, it's almost about all of my Linux
    ```shell
    sudo cp ~/.config/nvim/zathura/zathurarc /etc/zathurarc
    ```
+### Foliate (Epub, Mobi, ebooks reader)
+```shell
+flatpak install flathub com.github.johnfactotum.Foliate
+```
+
+Install Foliate via Flathub can fix the text rendering issue\
+
    
 ### Rmove window title bar
 
