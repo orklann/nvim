@@ -16,3 +16,6 @@ set recolor-darkcolor "#ffffff"
 " Set default window size
 set window-width 720
 set window-height 800
+
+" Copy highlight text to system clipboard
+set selection-clipboard clipboard
