@@ -3,7 +3,7 @@ lua <<EOF
   local cmp = require'cmp'
 
   local kind_icons = {
-    Text = "",
+    Text = "☌",
     Method = "",
     Function = "",
     Constructor = "",
