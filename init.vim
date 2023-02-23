@@ -148,3 +148,6 @@ set completeopt=menu,menuone,noselect
 source ~/.config/nvim/vim/colorizer.vim
 source ~/.config/nvim/vim/nvim-cmp.vim
 source ~/.config/nvim/vim/cscope.vim
+
+" Disable mouse
+set mouse=
