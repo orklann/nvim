@@ -151,3 +151,6 @@ source ~/.config/nvim/vim/cscope.vim
 
 " Disable mouse
 set mouse=
+
+" Tabline colors
+hi TabLineSel guifg=white guibg=darkgreen
