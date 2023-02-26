@@ -153,4 +153,4 @@ source ~/.config/nvim/vim/cscope.vim
 set mouse=
 
 " Tabline colors
-hi TabLineSel guifg=white guibg=darkgreen
+hi TabLineSel guifg=white guibg=#5F5FAF
