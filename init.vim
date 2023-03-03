@@ -154,3 +154,6 @@ set mouse=
 
 " Tabline colors
 hi TabLineSel guifg=white guibg=#5F5FAF
+
+" Wrap text to textwidth: set textwidth=80, and use this command
+nmap <C-L> gqG
