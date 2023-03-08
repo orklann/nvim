@@ -1,0 +1,6 @@
+keymap:
+  # HHKB Layout
+  - name: Akko ACR pro 59 HHKB
+    remap:
+      # tilde
+      SHIFT_R-Esc: SHIFT-KEY_GRAVE
