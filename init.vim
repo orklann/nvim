@@ -124,6 +124,9 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 
+" snippy
+Plug 'dcampos/nvim-snippy'
+
 " For luasnip users.
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
@@ -148,6 +151,7 @@ set completeopt=menu,menuone,noselect
 source ~/.config/nvim/vim/colorizer.vim
 source ~/.config/nvim/vim/nvim-cmp.vim
 source ~/.config/nvim/vim/cscope.vim
+source ~/.config/nvim/vim/snippy.vim
 
 " Disable mouse
 set mouse=
