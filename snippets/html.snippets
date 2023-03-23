@@ -1,2 +1,20 @@
-snippet html
-	<html></html>
+snippet html "HTML basic structure with the lang attribute"
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width" />
+			<title>${1:title}</title>
+		</head>
+		<body>
+			${0:@{visual}}
+		</body>
+	</html>
+
+snippet style "HTML <style>" w
+	<style type="text/css" media="screen">
+		${0:${visual}}
+	</style>
+
+snippet link "HTML <link>" w
+	<link rel="${1:stylesheet}" href="${2:/css/master.css}" type="text/css" media="${3:screen}" title="${4:no title}" charset="${5:utf-8}">
