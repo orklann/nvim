@@ -25,6 +25,9 @@ let g:tokyonight_enable_italic = 1
 
 colorscheme tokyonight
 
+" Delete word backward
+nnoremap dw bdw
+
 " Set status line colors
 hi statusline ctermbg=61 ctermfg=White
 " Set status line colors for Neovide
