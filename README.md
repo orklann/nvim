@@ -64,3 +64,5 @@ https://github.com/orklann/adw-gtk3-dark
 Cute fetch - fm6000
 
 https://github.com/anhsirk0/fetch-master-6000
+
+<img src="https://raw.githubusercontent.com/orklann/nvim/main/screenshots/fm6000.png" width="557" height="576" />
