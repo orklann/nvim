@@ -61,5 +61,6 @@ https://github.com/orklann/adw-gtk3-dark
 
 ### Extra
 
-Cute fetch - fm60000
+Cute fetch - fm6000
+
 https://github.com/anhsirk0/fetch-master-6000
