@@ -58,3 +58,8 @@ Install `Unite` GNOME extension
 
 ### Custom GNOME Theme
 https://github.com/orklann/adw-gtk3-dark
+
+### Extra
+
+Cute fetch - fm60000
+https://github.com/anhsirk0/fetch-master-6000
