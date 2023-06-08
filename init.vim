@@ -164,3 +164,6 @@ hi TabLineSel guifg=white guibg=#5F5FAF
 
 " Wrap text to textwidth: set textwidth=80, and use this command
 nmap <C-L> gqG
+
+" Set tabs for cosmopolitan
+au BufRead,BufNewFile,BufEnter /home/rkt/projects/cosmopolitan/* setlocal ts=2 sts=2 sw=2
