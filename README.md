@@ -49,7 +49,7 @@ This repo is not just my neovim configuration, it's almost about all of my Linux
 flatpak install flathub com.github.johnfactotum.Foliate
 ```
 
-Install Foliate via Flathub can fix the text rendering issue\
+Install Foliate via Flathub can fix the text rendering issue
 
    
 ### Rmove window title bar
