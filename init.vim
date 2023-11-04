@@ -14,9 +14,12 @@ set nu
 
 cabbrev t tabnew
 cabbrev tn tabnext
+cabbrev tp tabprevious
 
 map <c-u> :tabnext<CR>
 imap <c-u> <ESC>:tabnext<CR>
+map <c-p> :tabprevious<CR>
+imap <c-p> <ESC>:tabprevious<CR>
 map <c-j> <c-f>
 map <c-k> <c-b>
 
