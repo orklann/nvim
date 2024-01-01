@@ -10,7 +10,7 @@
 " Theme
 set termguicolors
 
-set nu
+set nonu
 
 cabbrev t tabnew
 cabbrev tn tabnext
