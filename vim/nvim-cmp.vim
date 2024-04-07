@@ -3,12 +3,12 @@ lua <<EOF
   local cmp = require'cmp'
 
   local kind_icons = {
-    Text = "☌",
+    Text = "プ",
     Method = "",
     Function = "",
     Constructor = "",
     Field = "",
-    Variable = "☊",
+    Variable = "ペ",
     Class = "",
     Interface = "",
     Module = "",
