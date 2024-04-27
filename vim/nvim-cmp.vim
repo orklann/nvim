@@ -1,6 +1,8 @@
 lua <<EOF
   -- Set up nvim-cmp.
   local cmp = require'cmp'
+  vim.api.nvim_set_hl(0, 'CmpBorder', { fg = '#a9b1d6' })
+  vim.api.nvim_set_hl(0, 'CmpSelect', { bg = '#3e5380' })
 
   local kind_icons = {
     Text = "プ",
@@ -41,7 +43,9 @@ lua <<EOF
       end,
     },
     window = {
-      completion = cmp.config.window.bordered(),
+      completion = cmp.config.window.bordered({
+        winhighlight = "Normal:Normal,FloatBorder:CmpBorder,CursorLine:CmpSelect,Search:None",
+      }),
       documentation = cmp.config.window.bordered(),
     },
     mapping = cmp.mapping.preset.insert({
