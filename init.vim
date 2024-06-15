@@ -31,18 +31,13 @@ colorscheme tokyonight
 " Delete word backward
 nnoremap dw bdw
 
-" Set status line colors
-hi statusline ctermbg=61 ctermfg=White
-" Set status line colors for Neovide
-hi statusline guibg=#5F5FAF guifg=White
-
-" Color groups for status lines"
-hi User1 ctermbg=61 ctermfg=Black
-hi User2 ctermbg=61 ctermfg=White
-
+" Old status line theme
 " Color groups for status lines for Neovide
-hi User1 guibg=#5F5FAF guifg=Black
-hi User2 guibg=#5F5FAF guifg=White
+"hi User1 guibg=#5F5FAF guifg=Black
+"hi User2 guibg=#5F5FAF guifg=White
+
+hi User1 guifg=#5F5FAF
+"hi User2 guibg=#5F5FAF guifg=White
 
 " Status text
 fun! GetPaddingSpaces(s)
@@ -56,13 +51,16 @@ fun! GetStatus()
   let sign = &modified ? '*' : ''
   let lineNumber= repeat('1', len(printf('%i', getline('.'))))
   let columnNumber = repeat('1', len(printf('%i', virtcol('.'))))
-  let fullPath = fnameescape(pathshorten(expand('%:p:h')))
+  "let fullPath = fnameescape(pathshorten(expand('%:p:h')))
   let filename = fnameescape(expand('%:t'))
-  let path = fullPath.'/'.filename.':'.lineNumber.':'.columnNumber
+  "let path = fullPath.'/'.filename.':'.lineNumber.':'.columnNumber
+  "
+  let fullPath = ""
+  let path="[*Tommy*]".filename.":%1:%c"
   let spaces = GetPaddingSpaces(path)
-  " Show file encoding on status line
-  "let s = 'set statusline=%2*'.sign.spaces.'%1*'.fullPath.'/%2*'.filename.'%1*:%l'."%=%2*%{''.(&fenc!=''?&fenc:&enc).''}"
-  let s = 'set statusline=%2*'.sign.spaces.'%1*'.fullPath.'/%2*'.filename.'%1*:%l:%2*%c'
+  " Old status line
+  "let s = 'set statusline=%2*'.sign.spaces.'%1*'.fullPath.'/%2*'.filename.'%1*:%l:%2*%c'
+  let s = 'set statusline=%2*'.sign.spaces.'%1*'."[*Tommy*]".'%1*'.filename.'%1*:%l:%1*%c'
   exec s
 endfun
 
