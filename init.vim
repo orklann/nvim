@@ -56,11 +56,11 @@ fun! GetStatus()
   "let path = fullPath.'/'.filename.':'.lineNumber.':'.columnNumber
   "
   let fullPath = ""
-  let path="[*Tommy*]".filename.":%1:%c"
+  let path="[•Tommy•]".filename.":%1:%c"
   let spaces = GetPaddingSpaces(path)
   " Old status line
   "let s = 'set statusline=%2*'.sign.spaces.'%1*'.fullPath.'/%2*'.filename.'%1*:%l:%2*%c'
-  let s = 'set statusline=%2*'.sign.spaces.'%1*'."[*Tommy*]".'%1*'.filename.'%1*:%l:%1*%c'
+  let s = 'set statusline=%2*'.sign.spaces.'%1*'."[•Tommy•]".'%1*'.filename.'%1*:%l:%1*%c'
   exec s
 endfun
 
