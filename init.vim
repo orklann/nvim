@@ -168,3 +168,23 @@ nmap <C-L> gqG
 
 " Set tabs for cosmopolitan
 au BufRead,BufNewFile,BufEnter /home/rkt/projects/cosmopolitan/* setlocal ts=2 sts=2 sw=2
+
+
+" Set tab line
+set tabline=%!GetTabLine()
+
+function! GetTabLine()
+  let line = ''
+  let s:current_tab = tabpagenr()
+  for i in range(tabpagenr('$'))
+    let bufnr = tabpagebuflist(i+1)[0]
+    let bufname = bufname(bufnr)
+    let tab_label = fnamemodify(bufname, ':t')
+    if i+1 == s:current_tab
+      let line .= '%' . (i+1) . 'T%#TabLineSel#' . tab_label . ' %#TabLine#'
+    else
+      let line .= '%' . (i+1) . 'T%#TabLine#' . tab_label . ' '
+    endif
+  endfor
+  return line
+endfunction
