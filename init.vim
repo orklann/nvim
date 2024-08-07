@@ -188,3 +188,7 @@ function! GetTabLine()
   endfor
   return line
 endfunction
+
+" Comment out erlang block codes
+vnoremap <silent> <C-k> :s/^/%<cr>:noh<cr>
+vnoremap <silent> <C-l> :s/^%/<cr>:noh<cr>
