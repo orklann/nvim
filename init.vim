@@ -117,37 +117,17 @@ map <C-C> :nohlsearch<CR>
 
 call plug#begin()
 Plug 'ryanoasis/vim-devicons'
-Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 
-" For vsnip users.
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
-
-" snippy
-Plug 'dcampos/nvim-snippy'
-
-" For luasnip users.
-" Plug 'L3MON4D3/LuaSnip'
-" Plug 'saadparwaiz1/cmp_luasnip'
-
-" For ultisnips users.
-" Plug 'SirVer/ultisnips'
-" Plug 'quangnguyen30192/cmp-nvim-ultisnips'
-
-" For snippy users.
-" Plug 'dcampos/nvim-snippy'
-" Plug 'dcampos/cmp-snippy'
-
-
-" cscope.nvim
-Plug 'mfulz/cscope.nvim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'tweekmonster/deoplete-clang2'
 
 call plug#end()
+
+let g:deoplete#enable_at_startup = 1
 
 set completeopt=menu,menuone,noselect
 
@@ -155,7 +135,6 @@ set completeopt=menu,menuone,noselect
 source ~/.config/nvim/vim/colorizer.vim
 source ~/.config/nvim/vim/nvim-cmp.vim
 source ~/.config/nvim/vim/cscope.vim
-source ~/.config/nvim/vim/snippy.vim
 
 " Disable mouse
 set mouse=
