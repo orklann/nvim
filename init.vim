@@ -19,9 +19,10 @@ cabbrev tp tabprevious
 map <c-u> :tabprevious<CR>
 imap <c-u> <ESC>:tabprevious<CR>
 map <c-i> :tabnext<CR>
-imap <c-i> <ESC>:tabnext<CR>
+nmap <c-i> <ESC>:tabnext<CR>
 map <c-j> <c-f>
 map <c-k> <c-b>
+
 
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
