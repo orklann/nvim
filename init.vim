@@ -127,9 +127,9 @@ Plug 'tweekmonster/deoplete-clang2'
 
 call plug#end()
 
-let g:deoplete#enable_at_startup = 1
+"let g:deoplete#enable_at_startup = 1
 
-set completeopt=menu,menuone,noselect
+"set completeopt=menu,menuone,noselect
 
 " Source configurations
 source ~/.config/nvim/vim/colorizer.vim
