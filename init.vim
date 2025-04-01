@@ -27,8 +27,8 @@ map <c-k> <c-b>
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
 
-"colorscheme tokyonight
-colorscheme sidonia
+colorscheme tokyonight
+"colorscheme sidonia
 
 " Delete word backward
 nnoremap dw bdw
