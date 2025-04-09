@@ -174,3 +174,6 @@ vnoremap <silent> <C-l> :s/^%/<cr>:noh<cr>
 
 cnoreabbrev nodeo call deoplete#custom#option('auto_complete', v:false)
 cnoreabbrev deo call deoplete#custom#option('auto_complete', v:true)
+
+" macro to comment line in Ruby & Python
+let @a="ei#"
