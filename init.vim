@@ -25,7 +25,8 @@ map <c-k> <c-b>
 
 
 let g:tokyonight_style = 'night' " available: night, storm
-let g:tokyonight_enable_italic = 1
+let g:tokyonight_enable_italic = 0
+
 
 colorscheme tokyonight
 "colorscheme sidonia
@@ -177,3 +178,4 @@ cnoreabbrev deo call deoplete#custom#option('auto_complete', v:true)
 
 " macro to comment line in Ruby & Python
 let @a="ei#"
+
