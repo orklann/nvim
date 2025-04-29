@@ -26,6 +26,7 @@ map <c-k> <c-b>
 
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
+let g:tokyonight_disable_italic_comment = 1
 
 
 colorscheme tokyonight
