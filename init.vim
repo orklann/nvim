@@ -123,10 +123,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'tweekmonster/deoplete-clang2'
-
+Plug 'dcampos/nvim-snippy'
 call plug#end()
 
 "let g:deoplete#enable_at_startup = 1
@@ -136,7 +133,7 @@ call plug#end()
 " Source configurations
 source ~/.config/nvim/vim/colorizer.vim
 source ~/.config/nvim/vim/nvim-cmp.vim
-source ~/.config/nvim/vim/cscope.vim
+source ~/.config/nvim/vim/snippy.vim
 
 " Disable mouse
 set mouse=
