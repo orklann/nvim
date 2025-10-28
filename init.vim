@@ -177,3 +177,5 @@ cnoreabbrev deo call deoplete#custom#option('auto_complete', v:true)
 " macro to comment line in Ruby & Python
 let @a="ei#"
 
+" Patch to make function name bold in font
+highlight Function cterm=bold gui=bold
