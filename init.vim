@@ -182,3 +182,4 @@ highlight Function cterm=bold gui=bold
 
 " Patch to set highlight colors for selected text
 highlight Visual guifg=#a9b1d6 guibg=#32344a
+highlight Search guifg=#a9b1d6 guibg=#32344a
